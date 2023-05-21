@@ -41,6 +41,5 @@
         }
     },
     "type": "library",
-    "minimum-stability": "stable",
     "license": "MIT"
 }
