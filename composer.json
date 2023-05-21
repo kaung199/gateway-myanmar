@@ -40,5 +40,8 @@
             ]
         }
     },
+    "type": "library",
+    "minimum-stability": "stable",
+    "prefer-stable": true,
     "license": "MIT"
 }
