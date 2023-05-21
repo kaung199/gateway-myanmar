@@ -17,7 +17,7 @@ use Hak\GatewayMyanmar\Facades\Gateway;
 public function store(Request $request)
 {
     // Request for paymentToken and Redirect Url
-    $token = Gateway::paymentToken([
+    $token = Gateway::initialize([
         'amount' => $request->amount,
         'invoiceNo' => time(), 
         'description' => $request->description,
@@ -28,7 +28,7 @@ public function store(Request $request)
     return $token; // that will return array of webPaymentUrl, paymentToken, respCode, respDesc 
 
     // Request for paymentInquiry
-    $inquiry = Gateway::paymentInquiry([
+    $inquiry = Gateway::complete([
         'invoiceNo' => 1684666236,
     ]);
 
