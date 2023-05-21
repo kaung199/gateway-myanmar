@@ -1,0 +1,44 @@
+{
+    "name": "hak/gateway-myanmar",
+    "description": "Myanmar payment gateway integration package",
+    "authors": [
+        {
+            "name": "hakhant21",
+            "email": "hakhant21@gmail.com",
+            "role": "developer",
+            "homepage": "https://www.hakhant.tech"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.6",
+        "firebase/php-jwt": "^6.5"
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.6",
+        "pestphp/pest-plugin-laravel": "^2.0",
+        "orchestra/testbench": "^8.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hak\\GatewayMyanmar\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Hak\\GatewayMyanmar\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Hak\\GatewayMyanmar\\GatewayServiceProvider"
+            ]
+        }
+    },
+    "license": "MIT"
+}
