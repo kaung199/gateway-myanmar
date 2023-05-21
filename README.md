@@ -19,7 +19,7 @@ public function store(Request $request)
     // Request for paymentToken and Redirect Url
     $token = Gateway::initialize([
         'amount' => $request->amount,
-        'invoiceNo' => time(), 
+        'invoice_no' => time(), 
         'description' => $request->description,
         'name' => auth()->user()->name,
         'email' => auth()->user()->email
@@ -29,7 +29,7 @@ public function store(Request $request)
 
     // Request for paymentInquiry
     $inquiry = Gateway::complete([
-        'invoiceNo' => 1684666236,
+        'invoice_no' => 1684666236,
     ]);
 
     return $inquiry; // that will return as an array of payment inquiry data
