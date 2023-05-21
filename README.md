@@ -34,6 +34,13 @@ public function store(Request $request)
 
     return $inquiry; // that will return as an array of payment inquiry data
 }
+```
+
+### Publish config file
+
+```bash
+
+php artisan vendor:publish --provider="Hak\GatewayMyanmar\GatewayServiceProvider" --tag="gateway"
 
 ```
 
