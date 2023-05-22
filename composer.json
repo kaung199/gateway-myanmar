@@ -1,6 +1,7 @@
 {
     "name": "hak/gateway-myanmar",
     "description": "Myanmar payment gateway integration package",
+    "keywords": ["2c2p","myanmar","payment","package","kbzpay","mpu","wave","visa", "master"],
     "authors": [
         {
             "name": "hakhant21",
