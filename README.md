@@ -1,4 +1,4 @@
-# Myanmar Payment Integration Package [![PHP Composer](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml)
+# Myanmar Payment Integration Package [![Test](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml)
 
 ## Installation
 ```bash
