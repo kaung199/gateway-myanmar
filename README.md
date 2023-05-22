@@ -43,11 +43,5 @@ public function store(Request $request)
 php artisan vendor:publish --provider="Hak\GatewayMyanmar\GatewayServiceProvider" --tag="gateway"
 
 ```
-
-### Testing
-
-```bash
-
-./vendor/bin/pest
-
-```
+### Test 
+[![PHP Composer](https://github.com/hakhant21/gateway-myanmar/actions/workflows/php.yml/badge.svg?branch=main&event=push)](https://github.com/hakhant21/gateway-myanmar/actions/workflows/php.yml)
