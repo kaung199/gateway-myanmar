@@ -44,4 +44,4 @@ php artisan vendor:publish --provider="Hak\GatewayMyanmar\GatewayServiceProvider
 
 ```
 ### Test 
-[![PHP Composer](https://github.com/hakhant21/gateway-myanmar/actions/workflows/php.yml/badge.svg?branch=main&event=push)](https://github.com/hakhant21/gateway-myanmar/actions/workflows/php.yml)
+[![PHP Composer](https://github.com/hakhant21/gateway-myanmar/actions/workflows/php.yml/badge.svg?branch=main&event=push)](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml)
