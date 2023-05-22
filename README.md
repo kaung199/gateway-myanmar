@@ -1,4 +1,4 @@
-# Myanmar Payment Integration Package
+# Myanmar Payment Integration Package [![PHP Composer](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml)
 
 ## Installation
 ```bash
@@ -43,5 +43,3 @@ public function store(Request $request)
 php artisan vendor:publish --provider="Hak\GatewayMyanmar\GatewayServiceProvider" --tag="gateway"
 
 ```
-### Testing
-[![PHP Composer](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml/badge.svg?branch=main&event=push)](https://github.com/hakhant21/gateway-myanmar/actions/workflows/main.yml)
