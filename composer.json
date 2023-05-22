@@ -40,7 +40,9 @@
             ]
         }
     },
-    "test": "./vendor/bin/pest",
+    "scripts": {
+        "test": "./vendor/bin/pest"
+    },
     "type": "library",
     "license": "MIT"
 }
