@@ -9,8 +9,8 @@ return [
     'backend_result_url' => env('RESULT_URL_2'),
     'gateway_url' => [
         'url' => env('BASE_URL'),
-        'token' => '/paymentToken',
-        'inquiry' => '/paymentInquiry'
+        'token' => 'paymentToken',
+        'inquiry' => 'paymentInquiry'
     ],
     'locale' => "mm"
 ];
